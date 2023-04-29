@@ -1,0 +1,4 @@
+hal_client_domain(system_app, hal_touchfeature)
+
+# Allow binder communication with hal_touchfeature
+binder_call(system_app, hal_touchfeature)
