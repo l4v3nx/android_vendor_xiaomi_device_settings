@@ -4,6 +4,9 @@ PRODUCT_PACKAGES += DeviceParts
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.deviceparts.lcd.cabc=1
+
 VENDOR_PATH := vendor/xiaomi/devicesettings
 
 # Overlay

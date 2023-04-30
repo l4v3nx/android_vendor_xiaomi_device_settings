@@ -13,7 +13,6 @@
 # limitations under the License.
 #
 
-<<<<<<< HEAD
 on init
     # Xiaomi Thermal Profiles permissions
     chmod 0664 /sys/class/thermal/thermal_message/sconfig
