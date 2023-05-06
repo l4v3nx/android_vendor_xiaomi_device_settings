@@ -4,6 +4,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+soong_namespace {
+}
+
 android_app {
     name: "DeviceParts",
     defaults: [
