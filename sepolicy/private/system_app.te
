@@ -2,6 +2,3 @@ hal_client_domain(system_app, hal_touchfeature)
 
 # Allow binder communication with hal_touchfeature
 binder_call(system_app, hal_touchfeature)
-
-get_prop(system_app, deviceparts_prop)
-set_prop(system_app, deviceparts_prop)
